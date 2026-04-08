@@ -1,3 +1,5 @@
 export default {
-  experimental: {},
+  experimental: {
+    runtime: "nodejs",
+  },
 };
