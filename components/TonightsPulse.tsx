@@ -107,7 +107,7 @@ export default function TonightsPulse() {
   const [hoveredId, setHoveredId] = useState<number | null>(null)
   const [tickerIndex, setTickerIndex] = useState(0)
   const [totalBooked, setTotalBooked] = useState(3847)
-  const tickerRef = useRef<HTMLDivElement>(null)
+  // const _tickerRef = useRef<HTMLDivElement>(null)
 
   const hoveredEvent = EVENTS.find((e) => e.id === hoveredId)
 
