@@ -1,5 +1,3 @@
-const config = {
+export default {
   experimental: {},
 };
-
-export default config;
