@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 
 const EVENTS = [
   { id: 1, name: 'Monsoon Beats Festival', city: 'Mumbai', x: 22, y: 62, tickets: 847, selling: true, tag: 'Music' },
