@@ -1,5 +1,3 @@
-export default {
-  experimental: {
-    runtime: "nodejs",
-  },
-};
+import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+
+export default defineCloudflareConfig({});
